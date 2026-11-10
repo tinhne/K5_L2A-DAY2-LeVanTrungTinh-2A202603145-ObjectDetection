@@ -10,7 +10,13 @@ outputs/
 *.zip
 # Không commit checkpoint .pt, kể cả khi nằm trong report/individual/assets.
 *.pt
+.venv/
+.ipynb_checkpoints/
+*.py[cod]
 __pycache__/
+
+# Bản clone/output được tạo khi chạy notebook cục bộ.
+notebooks/Day2-Lab/
 
 # macOS
 .DS_Store
